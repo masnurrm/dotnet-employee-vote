@@ -16,10 +16,6 @@ namespace EmployeeVoter.Controllers
             this.dbContext = dbContext;
         }
 
-        public EmployeesController()
-        {
-        }
-
         [HttpGet]
         public IActionResult GetAllEmployees()
         {
