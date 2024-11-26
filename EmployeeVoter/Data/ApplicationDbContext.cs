@@ -12,5 +12,7 @@ namespace EmployeeVoter.Data
 
         //public DbSet<Employee> Employees { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
+        public virtual DbSet<Candidate> Candidates { get; set; }
+        public virtual DbSet<ChoiceVoter> ChoiceVoter { get; set; }
     }
 }
